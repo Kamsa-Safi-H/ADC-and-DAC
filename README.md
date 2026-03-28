@@ -64,6 +64,8 @@ Features
 •	Compatible with digital systems
 The analog output voltage depends on the digital input combination.
 ## Circuit Diagram
+<img width="980" height="677" alt="Screenshot 2026-03-28 111939" src="https://github.com/user-attachments/assets/84090490-f320-4cff-a3fe-1bd03add98f2" />
+
 Design the circuit in Proteus using DAC0808 with:
 •	8 digital switches for binary input
 •	Op-Amp for current to voltage conversion
@@ -82,6 +84,19 @@ o	Digital switches
 7.	Change digital input combinations and observe the output voltage.
 
 ## Tabulation
+| S.No | Digital Input (D7–D0) | Binary Value | Decimal Value | Analog Output Voltage (Vout) |
+| ---- | --------------------- | ------------ | ------------- | ---------------------------- |
+| 1    | 00000000              | 0            | 0             | 0 V                          |
+| 2    | 00000001              | 1            | 1             | 0.02 V                       |
+| 3    | 00000010              | 2            | 2             | 0.04 V                       |
+| 4    | 00000100              | 4            | 4             | 0.08 V                       |
+| 5    | 00001000              | 8            | 8             | 0.16 V                       |
+| 6    | 00010000              | 16           | 16            | 0.32 V                       |
+| 7    | 00100000              | 32           | 32            | 0.64 V                       |
+| 8    | 01000000              | 64           | 64            | 1.28 V                       |
+| 9    | 10000000              | 128          | 128           | 2.56 V                       |
+| 10   | 11111111              | 255          | 255           | 5 V (approx)                 |
+
 
 ## Result
 The Digital to Analog Converter circuit was successfully designed and simulated in Proteus, and the digital input was converted into corresponding analog voltage.
